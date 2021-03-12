@@ -22,9 +22,6 @@ public class BedrijfsInventaris {
     }
 
     public String toString() {
-//        for (Goed i : inventaris) {
-//            System.out.println(i);
-//        }
         String s = "Goederen in inventaris: " + "\n" + inventaris;
         String r = s.replace(", ", "\n");
         String t = r.replace("[", "");
