@@ -33,5 +33,7 @@ public class Main {
         bdr1.schafAan(cp3);
 
         System.out.println(bdr1.toString());
+
+        System.out.println("\nUtils is " + Utils.getAanroep() + " keer aangeroepen");
     }
 }
