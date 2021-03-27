@@ -7,10 +7,9 @@ public class Utils {
     private static int aanroep;
 
     public static String euroBedrag(double bedrag) {
-        String s = "€" + String.format("%.2f", bedrag);
         aanroep += 1;
 
-        return s;
+        return euroBedrag(bedrag, 2);
     }
 
     public static String euroBedrag(double bedrag, int precisie) {
